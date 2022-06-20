@@ -30,3 +30,13 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 450px) {
+  .App{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .card{
+    width: auto;
+  }
+}
